@@ -4,8 +4,8 @@
         "domain": "Physical",
         "type": "Counterfactual",
         "question": "What if the cat had been smaller?",
-        "answer1": "f the cat had been smaller, he cat might have been able to jump lower and not hit the mirror, but it might still have hit the mirror if it jumped too hard.",
-        "answer2": "f the cat had been smaller, the cat might have been able to jump lower and not hit the mirror.",
+        "answer1": "if the cat had been smaller, he cat might have been able to jump lower and not hit the mirror, but it might still have hit the mirror if it jumped too hard.",
+        "answer2": "if the cat had been smaller, the cat might have been able to jump lower and not hit the mirror.",
         "correct_answer_key": "answer2",
         "video_url": "https://oops-qa.s3.us-west-1.amazonaws.com/train/Hilarious+Cat+Fails+(April+2017)46.mp4"
     },
