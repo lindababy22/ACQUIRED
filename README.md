@@ -1,8 +1,10 @@
-# ACQUIRED
-A Dataset for Answering Counterfactual Questions In Real Life Videos
+# ACQUIRED: A Dataset for Answering Counterfactual Questions In Real Life Videos
 
-## Introduction
-[ACQUIRED: A Dataset for Answering Counterfactual Questions In Real-Life Videos](https://arxiv.org/abs/2311.01620)
+This repository releases the curated `ACQUIRED` dataset for counterfactual question answering on real-life videos. For more details, please check out our [EMNLP 2023 paper](https://arxiv.org/abs/2311.01620).
+
+`ACQUIRED` consists of 3.9K annotated videos, encompassing a wide range of event types and incorporating both first and third-person viewpoints, which ensures a focus on real-world diversity.
+
+Each video is annotated with questions that span three distinct dimensions of reasoning, including `physical`, `social`, and `temporal`, which can comprehensively evaluate the model counterfactual abilities along multiple aspects.
 
 ## Download The Videos
 
@@ -21,6 +23,8 @@ acquired_dataset
 ```
 
 # Check Out The Data
+
+The main split of the datasets are prepared as `.json` files under the folder `Dataset`, which contains `train.json`, `val.json`, and `test.json`, the official splits used in the above paper.
 
 Please follow the instruction of `Demo.ipynb` to visualize the data samples and check the structure of the datasets more in-depth.
 
