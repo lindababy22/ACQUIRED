@@ -1,0 +1,6 @@
+.DS_Store
+data/train
+data/val
+data/release
+acquired_dataset*
+*ipynb_checkpoints/*
